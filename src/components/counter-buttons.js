@@ -1,6 +1,6 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { Button } from 'semantic-ui-react';
-import { CounterContext } from './../context/counter-context';
+import { CounterContext } from './../contexts/counter-context';
 
 const CounterButtons = () => {
   const [count, setCount] = useContext(CounterContext);
